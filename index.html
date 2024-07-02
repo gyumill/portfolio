@@ -4,51 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <nav class="sidebar">
-      <div>
-        <img src="" alt="logo" />
-        <h2>Mila Lazovic</h2>
+    <header><img class="logo-image" src="./images/SVG/logo.svg" /></header>
+    <main>
+      <div class="container">
+        <div class="row-wrapper">
+          <div class="circle-container">
+            <div class="projects-container">
+              <img src="./images/projects_text.svg" alt="" class="text" />
+              <a href="./pages/projects.html">
+                <img src="./images/projects.png" class="projects-img" />
+              </a>
+            </div>
+          </div>
+          <div class="circle-container">
+            <div class="films-container">
+              <img src="./images/films_text.svg" alt="" class="text" />
+              <a href="./pages/films.html">
+                <img src="./images/films.png" class="films-img" />
+              </a>
+            </div>
+          </div>
+          <div class="circle-container">
+            <div class="collages-container">
+              <a href="./pages/collages.html">
+                <img src="./images/collages.png" class="collages-img" />
+              </a>
+              <img src="./images/collages_text.svg" alt="" class="text" />
+            </div>
+          </div>
+        </div>
+        <div class="row-wrapper">
+          <div class="circle-container">
+            <div class="typographs-container">
+              <a href="./pages/typographs.html">
+                <img src="./images/typographs.png" class="typographs-img" />
+              </a>
+              <img src="./images/typo_text.svg" alt="" class="text" />
+            </div>
+          </div>
+          <div class="circle-container">
+            <div class="posters-container">
+              <a href="./pages/posters.html">
+                <img src="./images/posters.png" class="posters-img" />
+              </a>
+              <img src="./images/posters_text.svg" alt="" class="text" />
+            </div>
+          </div>
+          <div class="circle-container"></div>
+        </div>
       </div>
-
-      <section class="nav-section">
-        <h3>Projects</h3>
-        <ul>
-          <li><a href="">Nekateka illustation</a></li>
-          <li><a href="">Vreme kapsule</a></li>
-          <li><a href="">Registre des Bleues</a></li>
-        </ul>
-      </section>
-
-      <section class="nav-section">
-        <h3>Index</h3>
-        <ul>
-          <li><a href="">Posters</a></li>
-          <li><a href="">Illustrations</a></li>
-          <li><a href="">Typography</a></li>
-          <li><a href="">Zines</a></li>
-        </ul>
-      </section>
-
-      <section class="nav-section">
-        <h3>Presentation</h3>
-        <ul>
-          <li><a href="">About me</a></li>
-        </ul>
-      </section>
-
-      <section class="nav-section">
-        <h3>Links</h3>
-        <ul>
-          <li><a href="">Insta</a></li>
-          <li><a href="">Tumblr</a></li>
-          <li><a href="">Linkedin</a></li>
-          <li><a href="">Github</a></li>
-        </ul>
-      </section>
-    </nav>
-    <main><h1>Main content lalalalala</h1></main>
+    </main>
+    <footer>
+      <a href="">O meni</a>
+      <img class="home-flower" src="./images/SVG/home_flower.svg" />
+    </footer>
   </body>
 </html>

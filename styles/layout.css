@@ -1,41 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
-  background-color: #f7eacf;
+  background-color: #e9e6d8;
+
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html,
 body {
   width: 100%;
   height: 100%;
+  padding: 1rem;
 }
 body {
   display: flex;
-}
-
-.sidebar {
-  padding: 1rem;
-  display: flex;
   flex-direction: column;
-  gap: 2rem;
-  border-right: rgb(179, 149, 106) solid 2px;
 }
 
-li {
-  list-style: none;
-  text-decoration: none;
-}
-
-.sidebar h3 {
-  padding: 1rem 0rem;
-}
-.sidebar ul {
-  padding: 0rem 1rem;
+footer {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: end;
+}
+
+footer a {
+  color: black;
+  font-style: italic;
+  font-size: large;
 }
 
 a {
@@ -47,5 +67,19 @@ main {
   flex: 1;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-wrapper {
+  display: flex;
+  gap: 3rem;
 }
