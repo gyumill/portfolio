@@ -1,16 +1,3 @@
-.logo-image {
-  height: 8rem;
-}
-
-.home-flower {
-  height: 8rem;
-}
-
-.home-flower:hover {
-  transform: rotate(20deg);
-  cursor: pointer;
-}
-
 img {
   background-color: transparent;
 }

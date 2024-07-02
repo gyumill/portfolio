@@ -83,3 +83,19 @@ main {
   display: flex;
   gap: 3rem;
 }
+
+.logo-image {
+  height: 8rem;
+}
+
+.home-flower {
+  height: 8rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.home-flower:hover {
+  transform: rotate(20deg);
+  cursor: pointer;
+}
