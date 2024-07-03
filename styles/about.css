@@ -1,9 +1,10 @@
 .about-me-container {
   position: relative;
+  height: 60vh;
 }
 
 .about-me {
-  width: 400px;
+  height: 100%;
 }
 
 p {
