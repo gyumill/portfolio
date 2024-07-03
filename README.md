@@ -1,1 +1,1 @@
-https://gyumill.githhub.io/portfolio/index.html
+https://gyumill.github.io/portfolio/index.html
