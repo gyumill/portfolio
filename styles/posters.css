@@ -3,7 +3,7 @@ header {
 }
 
 header img {
-  height: 50px;
+  height: 45px;
   position: fixed;
   left: 2rem;
   top: 2rem;
@@ -33,17 +33,17 @@ main section {
   gap: 1rem;
 }
 
-.project-header {
+.poster-header {
   display: flex;
   flex-direction: column;
   align-items: end;
 }
 
-.project-title {
+.poster-title {
   font-style: italic;
 }
 
-main .project {
+main section .poster {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -51,6 +51,6 @@ main .project {
   gap: 1rem;
 }
 
-main .project-2 {
-  width: 60%;
+main section .poster > img {
+  width: 40%;
 }

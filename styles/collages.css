@@ -3,7 +3,7 @@ header {
 }
 
 header img {
-  height: 50px;
+  height: 45px;
   position: fixed;
   left: 2rem;
   top: 2rem;
@@ -33,17 +33,17 @@ main section {
   gap: 1rem;
 }
 
-.project-header {
+.collages-header {
   display: flex;
   flex-direction: column;
   align-items: end;
 }
 
-.project-title {
+.collages-title {
   font-style: italic;
 }
 
-main .project {
+main section .collages {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -51,6 +51,8 @@ main .project {
   gap: 1rem;
 }
 
-main .project-2 {
-  width: 60%;
+.collages > img {
+  min-width: 300px;
+  width: 70%;
+  max-width: 500px;
 }

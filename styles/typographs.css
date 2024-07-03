@@ -21,29 +21,36 @@ main {
 }
 
 main section {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: center;
   gap: 1rem;
+}
+
+main img {
+  max-width: 600px;
+  width: 100%;
 }
 
 .row {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 
-.project-header {
+.typographs-header {
   display: flex;
   flex-direction: column;
   align-items: end;
+  align-self: self-end;
 }
 
-.project-title {
+.typographs-title {
   font-style: italic;
 }
 
-main .project {
+main section .typographs {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -51,6 +58,6 @@ main .project {
   gap: 1rem;
 }
 
-main .project-2 {
-  width: 60%;
+main section .typographs {
+  width: 40%;
 }

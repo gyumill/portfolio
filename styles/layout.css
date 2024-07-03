@@ -79,8 +79,14 @@ main {
   justify-content: center;
 }
 
-.row-wrapper {
+.row {
   display: flex;
+  gap: 3rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
   gap: 3rem;
 }
 

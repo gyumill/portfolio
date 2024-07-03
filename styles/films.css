@@ -3,29 +3,44 @@ header {
 }
 
 header img {
-  height: 50px;
+  height: 40px;
   position: fixed;
   left: 2rem;
   top: 2rem;
 }
 
-.line {
-  width: 120px;
-  margin-bottom: 0.5rem;
-}
-
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+}
+
+main > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  margin-left: 15%;
+  margin-top: 80px;
+}
+
+.movie {
+  width: 100%;
+  display: flex;
   gap: 4rem;
 }
 
-main section {
-  width: 70%;
+.movie-shots {
+  width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: end;
   gap: 1rem;
+}
+
+.details h2 {
+  margin-bottom: 3rem;
 }
 
 .row {
@@ -39,18 +54,10 @@ main section {
   align-items: end;
 }
 
-.project-title {
+.film-title {
   font-style: italic;
 }
 
-main .project {
+main section .film {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
-main .project-2 {
-  width: 60%;
 }
