@@ -20,7 +20,7 @@ main {
   gap: 4rem;
 }
 
-main section {
+main .project {
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -28,9 +28,19 @@ main section {
   gap: 1rem;
 }
 
-.row {
+.project-images {
   display: flex;
+  flex-wrap: nowrap;
   gap: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.project-images > img {
+  object-fit: fill;
+  flex: 1 1 30%;
+  box-sizing: border-box;
+  width: 25%;
 }
 
 .project-header {
@@ -43,12 +53,11 @@ main section {
   font-style: italic;
 }
 
-main .project {
-  width: 100%;
+.project-2-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
+  align-items: center;
 }
 
 main .project-2 {
