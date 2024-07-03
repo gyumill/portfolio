@@ -127,3 +127,7 @@ img {
 .posters-img:hover {
   transform: rotate(5deg);
 }
+
+.about-link:hover {
+  color: #eeb334;
+}
