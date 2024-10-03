@@ -60,3 +60,15 @@ p {
     transform: rotate(0deg);
   }
 }
+
+.socials p {
+  padding: 0rem 1rem;
+}
+
+.socials a {
+  color: #eeb334;
+}
+
+.socials a:hover {
+  color: #c09027;
+}

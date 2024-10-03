@@ -105,3 +105,11 @@ main {
   transform: rotate(20deg);
   cursor: pointer;
 }
+
+.details a {
+  color: #eeb334;
+}
+
+.details a:hover {
+  color: #c09027;
+}
