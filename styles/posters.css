@@ -7,6 +7,7 @@ header img {
   position: fixed;
   left: 2rem;
   top: 2rem;
+  background: transparent;
 }
 
 .line {
@@ -21,11 +22,16 @@ main {
 }
 
 main section {
-  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: end;
   gap: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  main section {
+    width: 70%;
+  }
 }
 
 .row {
@@ -44,6 +50,7 @@ main section {
 }
 
 main section .poster {
+  align-self: center;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -51,6 +58,10 @@ main section .poster {
   gap: 1rem;
 }
 
+main section .poster {
+  max-width: 500px;
+}
+
 main section .poster > img {
-  width: 40%;
+  max-width: 100%;
 }

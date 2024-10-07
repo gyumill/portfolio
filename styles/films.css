@@ -7,6 +7,7 @@ header img {
   position: fixed;
   left: 2rem;
   top: 2rem;
+  background: transparent;
 }
 
 body {
