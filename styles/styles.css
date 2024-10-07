@@ -6,10 +6,13 @@ img {
   cursor: pointer;
 }
 
-.circle-container {
+.container {
+  align-items: center;
+  justify-content: center;
   position: relative;
-  width: 200px;
-  height: 200px;
+}
+
+.circle-container {
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -21,12 +24,37 @@ img {
 }
 
 .projects-container {
-  position: absolute;
-  left: -100px;
   display: flex;
   align-items: center;
   gap: 1rem;
   background-color: transparent;
+}
+
+@media only screen and (min-width: 600px) {
+  .projects-container {
+    position: absolute;
+    left: -450px;
+    top: -180px;
+  }
+  .films-container {
+    position: absolute;
+    top: -350px;
+  }
+  .collages-container {
+    position: absolute;
+    left: 200px;
+    top: -150px;
+  }
+  .typographs-container {
+    position: absolute;
+    top: 10px;
+    left: -330px;
+  }
+  .posters-container {
+    position: absolute;
+    top: -60px;
+    left: -120px;
+  }
 }
 
 .projects-img {
@@ -38,8 +66,6 @@ img {
 }
 
 .films-container {
-  position: absolute;
-  top: -120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,9 +86,6 @@ img {
 }
 
 .collages-container {
-  position: absolute;
-  top: 60px;
-  left: 50px;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -80,9 +103,6 @@ img {
 }
 
 .typographs-container {
-  position: absolute;
-  top: -30px;
-  left: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,9 +125,6 @@ img {
 }
 
 .posters-container {
-  position: absolute;
-  top: -100px;
-  left: -20px;
   display: flex;
   align-items: end;
   gap: 2.5rem;
